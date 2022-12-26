@@ -11,23 +11,23 @@ Each implementation aims to provide the same functionality, as they each input a
 ## Usage
 
 lift_sim_threads:
-	1. Open the lift_sim_threads folder 
-	2. Include in the folder a file called "sim_input.txt" of 50-100 requests you want made, with min floor 1 and max floor 20 (example file given).
-	3. Compile the program,in the terminal:
-      ''make``.
-	4. Run the program, in the terminal:
+1. Open the lift_sim_threads folder 
+2. Include in the folder a file called "sim_input.txt" of 50-100 requests you want made, with min floor 1 and max floor 20 (example file given).
+3. Compile the program,in the terminal:
+``make``
+4. Run the program, in the terminal:
      ``./lift_sim_A [buffer-size] [request duration]``
-	5. View the log data in the "sim.out.txt" file
+5. View the log data in the "sim.out.txt" file
 
 
 lift_processes:
-	1. Open the lift_sim_processess folder
-	2. Include in the folder a file called "sim_input.txt" of 50-100 requests you want made, with min floor 1 and max floor 20 (example file given).
-	3. Compile the program, in the terminal:
+1. Open the lift_sim_processess folder
+2. Include in the folder a file called "sim_input.txt" of 50-100 requests you want made, with min floor 1 and max floor 20 (example file given).
+3. Compile the program, in the terminal:
       ``make``
-	4. Run the program, in the terminal:
+4. Run the program, in the terminal:
       ``./lift_sim_B [buffer-size] [request duration]``
-	5. View the log data in the "sim.out.txt" file
+5. View the log data in the "sim.out.txt" file
   
  ## TODO
  * N/A
